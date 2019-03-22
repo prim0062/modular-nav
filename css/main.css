@@ -12,7 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: "PT Serif", serif;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -21,4 +21,38 @@ html {
 
 body {
   margin: 0;
+}
+
+header {
+  color: #000;
+  background-color: #e2e2e2;
+}
+
+header div {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+header h1 {
+  text-align: left;
+}
+
+header ul {
+  padding: 0;
+}
+
+header li {
+  list-style-type: none;
+  text-align: center;
+}
+
+header a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #fff;
+  background-color: #0074d9;
 }
